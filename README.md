@@ -25,7 +25,7 @@ ignore it -- keep going!
 7 <u>**free account**</u>  
 8 **finish sign up**  
 9 When you are finished, check your email and verify with github  
-10 go back to [google chrome](https://www.google.com/)<-press  
+10 go back to [google chrome](https://www.google.com)<-press  
 11 go back into incognito (press **command+shift+n** the <u>_**same**_</u> time)  
 12 go to your gmail  
 13 check your email  
