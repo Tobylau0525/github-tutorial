@@ -12,9 +12,9 @@ store data/code.
 
 ---
 ## Initial Setup
-1 go to [google chrome](www.google.com)<-press  
+1 go to [google chrome](https://www.google.com)<-press  
 2 go into incognito (press **command+shift+n** the <u>_**same**_</u> time)  
-3 go to [github.com](github)  
+3 go to [github.com](https://www.github.com)  
 4 press <u>sign up</u>  
 5 USERNAME: same as your hstat.org username  
 ex: tomt0101  
@@ -40,7 +40,7 @@ ex: Timt0101@hstat.org  you put Timt0101
 21 finish the rest of the steps  
 22 finish reading the message  
 23 set your passsword  
-24 go back to [www.c9.io](www.c9.io)  
+24 go back to [www.c9.io](https://www.c9.io)  
 25 look at your top-right  
 26 find the gear icon
  
