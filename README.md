@@ -61,7 +61,7 @@ mkdir:make a directory
 git init: set up a repository
 when you want to make a directory you type in `mkdir`,then if you want to make your directory to a repository,you type in `git int`  
 
-![alt text](https://photos.app.goo.gl/S0NQT2ZXpFQpCxTI3)
+![alt text](https://drive.google.com/drive/u/4/folders/0B0vpNprpg9i_dU90Zko4OU91c28)
 
 ---
 ## Workflow & Commands
