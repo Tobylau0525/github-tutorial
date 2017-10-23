@@ -67,7 +67,7 @@ git commit**: take a specific ‘snapshot’ of the files on the stage(taking a 
 if you type **ls**, you should see the folder you want to remove
 you can only delete an **empty** directory,that means if you got something in the folder you **can't** delete the folder with this method.  
 **git status**:git status check the files status,if it's on the stage or edited/not commited  
-**git init**:Then if you want to make your directory to a repository,you type in `git int`,what th does is that it initialize git into your directory, which makes it a repository.  
+**git init**:Then if you want to make your directory to a repository,you type in `git int`,what this does is that it initialize git into your directory, which makes it a repository.  
 **git add**:add the file you want to the staging area,just like calling someone into the picture to get ready.  
 **git commit**:take a "snapshot" of the file on the stage,just like taking a picture.  
 
@@ -80,16 +80,16 @@ Workflow:git status->git add->git commit->git push
 1 having a directory (folder) of files(**`mkdir`**)  
 2 then initialize git(**`git init`**) like hiring a photographer.  
 3 Once you have type in **`git init`** your file has become repository(or repo).  
-4 if you have edit something in the file **and** you want to save it 
+4 if you have edit something in the file **and** you want to save it  
 5 type in`git add` and the filename you want to add,what this does is that you are putting the file into the stage,just like putting people ino the frame.  
 6 once you are done adding the files to the stage,you type in `git commit`
 to basically take a "snapshot" of your code,like taking a picture.  
-7when you are really to push your changes to github,you type in `git push` and all chanegs will be push to github.
+7 when you are ready to push your changes to github,you type in `git push` and all changes will be pushed to github.
 
 
 ---
 ## Rolling Back Changes
-git checkout -- filename(you want to change back) :if you had edited a file and yo want the pervious file version.  
+git checkout -- filename(you want to change back) :if you had edited a file and you want the pervious file version.  
 git reset HEAD filename :remove the file from stage   
 git reset --soft HEAD~1:remove from the commit  
 git reset HEAD~1:move file from commit to stage   
