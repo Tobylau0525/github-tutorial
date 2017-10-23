@@ -13,7 +13,8 @@ store data/code.
 ---
 ## Initial Setup
 1 go to [google chrome](https://www.google.com)<-press (press **on** the scroller on your mouse to open a new tap)  
-2 go into incognito (press **command+shift+n** the <u>_**same**_</u> time)  
+2 go into incognito (press **command+shift+n** the <u>_**same**_</u> time)
+![alt text](http://updatepedia.com/wp-content/uploads/2016/04/Google_Chrome_Incognito.png )
 3 go to [github.com](https://www.github.com) (press **on** the scroller on your mouse to open a new tap)    
 4 press <u>sign up</u>  
 5 USERNAME: same as your hstat.org username  
