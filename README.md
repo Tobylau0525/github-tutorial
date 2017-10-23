@@ -49,7 +49,8 @@ Right here ->![alt text](https://lh6.googleusercontent.com/30HBjz1rnXSNb4TxZQ5vB
 ![alt text](https://lh3.googleusercontent.com/OUIUvCy6_jXixNqv5A_N3NdQrOyddguVKpRLWGWgQxxqPukalIKQtsohxcCJlxSUIP6mYneW2jbjWrnRdZBOuoZ-kCJc9uYSM2qXBn-v8p-c89e8PoonZ3R7rPx54LSN7ujlNC2ZMrw)  
 28 In the future, here is how you will log in
 go to [c9.io](https://www.c9.io) ->![alt text](https://lh3.googleusercontent.com/p57o7f31-F5fCPYoWzAYwVv48WpdLOZXV8zxbRabuofCBU00nGpNWHsO0LDteIKtV1krpVRMN2CXzNC1QPaQlBlHHsMaGF9rmilvnK_mxIMvq4kwprvHSmBx9pCGliqiefmQuYuJNQ8)
-click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**"  
+click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**" 
+![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)
 
 
 
@@ -58,8 +59,9 @@ click on the cat,you should see something that said" **Sign in to GitHub to cont
 ## Repository Setup
 mkdir:make a directory  
 git init: set up a repository
-when you want to make a directory you type in 
+when you want to make a directory you type in `mkdir`,then if you want to make your directory to a repository,you type in `git int`  
 
+![alt text](https://photos.app.goo.gl/S0NQT2ZXpFQpCxTI3)
 
 ---
 ## Workflow & Commands
