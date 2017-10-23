@@ -50,25 +50,25 @@ Right here ->![alt text](https://lh6.googleusercontent.com/30HBjz1rnXSNb4TxZQ5vB
 28 In the future, here is how you will log in
 go to [c9.io](https://www.c9.io) ->![alt text](https://lh3.googleusercontent.com/p57o7f31-F5fCPYoWzAYwVv48WpdLOZXV8zxbRabuofCBU00nGpNWHsO0LDteIKtV1krpVRMN2CXzNC1QPaQlBlHHsMaGF9rmilvnK_mxIMvq4kwprvHSmBx9pCGliqiefmQuYuJNQ8)
 click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**" 
-![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)
+![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)  
 SSH key:the key to access github(think of a door/gate in front of github,SSH is liek a key to open the door and access github)
 ## Repository Setup
-pwd :print the current working directory
-ls list
-mkdir:make a directory(making a container)  
-rmdir:delete a directory(destroying a container)
-git init: set up a repository  
-git add :places chosen file in the staging area(just like adding people into the picture)  
-git commit: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
+**pwd **:print the current working directory  
+**ls**list  
+**mkdir**:make a directory(making a container)  
+**rmdir**:delete a directory(destroying a container)  
+**git init**: set up a repository    
+**git add** :places chosen file in the staging area(just like adding people into the picture)  
+git commit**: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
 **mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. 
 **rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
 <u>** *NOTE </u>:to delete a folder, you must be in its parent folder
 if you type **ls**, you should see the folder you want to remove
 you can only delete an **empty** directory,that means if you got something in the folder you **can't** delete the folder with this methon.  
 **git status**:git status check the files status,if it's on the stage or edited/not commited  
-**git init**:Then if you want to make your directory to a repository,you type in `git int`,what thsi does is that it initialize git into your directory, which makes it a repository.
-**git add**:add the file you want to the staging area,just like calling someone into the picture to get ready.
-**git commit**:take a "snapshot" of the file on the stage,just like taking a picture
+**git init**:Then if you want to make your directory to a repository,you type in `git int`,what thsi does is that it initialize git into your directory, which makes it a repository.  
+**git add**:add the file you want to the staging area,just like calling someone into the picture to get ready.  
+**git commit**:take a "snapshot" of the file on the stage,just like taking a picture.  
 
 
 
@@ -88,8 +88,8 @@ to basically take a "snapshot" of your code,like taking a picture.
 
 ---
 ## Rolling Back Changes
-git checkout -- filename(you want to change back) :if you had edited a file and yo want the pervious file version.
-git reset HEAD filename :remove the file from stage 
-git reset --soft HEAD~1:remove from the commit
-git reset HEAD~1:move file from commit to stage 
-git reset --hard HEAD~1:remove file from commit to edit 
+git checkout -- filename(you want to change back) :if you had edited a file and yo want the pervious file version.  
+git reset HEAD filename :remove the file from stage   
+git reset --soft HEAD~1:remove from the commit  
+git reset HEAD~1:move file from commit to stage   
+git reset --hard HEAD~1:remove file from commit to edit   
