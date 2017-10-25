@@ -60,7 +60,8 @@ SSH key:the key to access github(think of a door/gate in front of github,SSH is 
 **git init**: set up a repository    
 **git add** :places chosen file in the staging area(just like adding people into the picture)  
 git commit**: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
-**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. 
+**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. ![alt text](mkdir.png"mkdir")
+
 **rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
 <u>** *NOTE </u>:to delete a folder, you must be in its parent folder
 if you type **ls**, you should see the folder you want to remove
