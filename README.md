@@ -54,8 +54,6 @@ click on the cat,you should see something that said" **Sign in to GitHub to cont
 
 SSH key:the key to access github(think of a door/gate in front of github,SSH is lik a key to open the door and access github)
 ***
-SSH key:the key to access github(think of a door/gate in front of github,SSH is like a key to open the door and access github)
-
 ## Repository Setup
 **pwd **:print the current working directory  
 **ls** : creates a list  
