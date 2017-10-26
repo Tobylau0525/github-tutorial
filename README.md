@@ -51,7 +51,7 @@ Right here ->![alt text](https://lh6.googleusercontent.com/30HBjz1rnXSNb4TxZQ5vB
 go to [c9.io](https://www.c9.io) ->![alt text](https://lh3.googleusercontent.com/p57o7f31-F5fCPYoWzAYwVv48WpdLOZXV8zxbRabuofCBU00nGpNWHsO0LDteIKtV1krpVRMN2CXzNC1QPaQlBlHHsMaGF9rmilvnK_mxIMvq4kwprvHSmBx9pCGliqiefmQuYuJNQ8)
 click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**" 
 ![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)  
-SSH key:the key to access github(think of a door/gate in front of github,SSH is like a key to open the door and access github)
+SSH key:the key to access github(think of a door/gate in front of github,SSH is lik a key to open the door and access github)
 ## Repository Setup
 **pwd **:print the current working directory  
 **ls**list  
@@ -60,7 +60,7 @@ SSH key:the key to access github(think of a door/gate in front of github,SSH is 
 **git init**: set up a repository    
 **git add** :places chosen file in the staging area(just like adding people into the picture)  
 git commit**: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
-**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. ![](mkdir.png)
+**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. ![alt text](mkdir.png)
 
 **rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
 <u>** *NOTE </u>:to delete a folder, you must be in its parent folder
