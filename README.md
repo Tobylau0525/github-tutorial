@@ -95,7 +95,6 @@ you can only delete an **empty** directory,that means if you got something in th
 -f:(with force) even if the file is protected   
 ***Be careful***
 
-
 1 Go into your c9 account [(www.c9.io)](https://www.c9.io)  
 2 Type `cd ~/workspace` this will make sure you are out of any files and back to basically the home page of cloud 9  
 ****Note**: **Don't** go farther then :~/workspace  
