@@ -76,6 +76,11 @@ you can only delete an **empty** directory,that means if you got something in th
 **git remote rm origin**:remove the path from local to github     
 **git push -u origin master**:push the file to github at the same time,it will save the path so next time when you want to do `git push` you just need to type git push.
 
+**Rm -rf**:force remove a file 
+(must be outside the file before deleting it,you can't delete a file if you are in it)  -r :continue to delete until everything in the file is gone  
+-f:(with force) even if the file is protected   
+***Be careful***
+
 
 1 Go into your c9 account [(www.c9.io)](https://www.c9.io)  
 2 Type `cd ~/workspace` this will make sure you are out of any files and back to basically the home page of cloud 9  
@@ -118,12 +123,4 @@ git reset --soft HEAD~1:remove from the commit
 git reset HEAD~1:move file from commit to stage   
 git reset --hard HEAD~1:remove file from commit to edit   
 
-
-***
-## Extra credit 
-
-Rm -rf:force remove a file 
-(must be outside the file before deleting it,you can't delete a file if you are in it)  -r :continue to delete until everything in the file is gone  
--f:(with force) even if the file is protected   
-***Be careful***
 
