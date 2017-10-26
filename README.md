@@ -50,8 +50,9 @@ Right here ->![alt text](https://lh6.googleusercontent.com/30HBjz1rnXSNb4TxZQ5vB
 28 In the future, here is how you will log in
 go to [c9.io](https://www.c9.io) ->![alt text](https://lh3.googleusercontent.com/p57o7f31-F5fCPYoWzAYwVv48WpdLOZXV8zxbRabuofCBU00nGpNWHsO0LDteIKtV1krpVRMN2CXzNC1QPaQlBlHHsMaGF9rmilvnK_mxIMvq4kwprvHSmBx9pCGliqiefmQuYuJNQ8)
 click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**" 
-![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)  
+
 SSH key:the key to access github(think of a door/gate in front of github,SSH is lik a key to open the door and access github)
+***
 ## Repository Setup
 **pwd **:print the current working directory  
 **ls**list  
@@ -60,7 +61,7 @@ SSH key:the key to access github(think of a door/gate in front of github,SSH is 
 **git init**: set up a repository    
 **git add** :places chosen file in the staging area(just like adding people into the picture)  
 git commit**: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
-**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way. ![alt text](mkdir.png)
+**mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way.  
 
 **rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
 <u>** *NOTE </u>:to delete a folder, you must be in its parent folder
@@ -68,11 +69,33 @@ if you type **ls**, you should see the folder you want to remove
 you can only delete an **empty** directory,that means if you got something in the folder you **can't** delete the folder with this methon.  
 **git status**:git status check the files status,if it's on the stage or edited/not commited  
 **git init**:Then if you want to make your directory to a repository,you type in `git int`,what thsi does is that it initialize git into your directory, which makes it a repository.  
-**git add**:add the file you want to the staging area,just like calling someone into the picture to get ready.  
-**git commit**:take a "snapshot" of the file on the stage,just like taking a picture.  
+**git add**:add the file you want to the staging area,just like calling someone into the picture to get ready.    
+**git commit**:take a "snapshot" of the file on the stage,just like taking a picture. 
+** git remote origin URL**:bulid a path between the local to github  
+**git remote -v**:checks your path between the local to github   
+**git remote rm origin**:remove the path from local to github     
+**git push -u origin master**:push the file to github at the same time,it will save the path so next time when you want to do `git push` you just need to type git push.
 
 
-
+1 Go into your c9 account [(www.c9.io)](https://www.c9.io)  
+2 Type `cd ~/workspace` this will make sure you are out of any files and back to basically the home page of cloud 9  
+****Note**: **Don't** go farther then :~/workspace  
+3 Type in `mkdir first-repo` .This will create a directory then type `cd first-repo` whenever you make a directory make it a habit to go into it **immediately**.  
+4 Type git init (this initilizes git and gets everything ready to be used) now to create a README file  
+5 go to github, on the top right hand click on the plus and down arrow icon and click _New Repository  
+6 Type touch README.md and then open it (you could either click on it or type touch README.md again)  
+In order for you to save and add to the staging area a change need to occur
+7 In the README.md file write a commit  
+8 click back on the bash and type in either git add . or git add README.md either one will add your change to the staging area  
+9 then you commit it, now with that you need a smart commit message basically explaining what exactly you have done(make sure it is in present tense). ex: create first readme,added color,change format  
+10 type git commit -m"(put your commit message)"  
+Wait..what?!?!....we don’t have a remote repo to **push** this to?  
+**Make sure you have **SSH** selected**
+![alt text](https://lh3.googleusercontent.com/4NdqJRVKpe_PE75iNFklRrH5g77nUCzZWT5m7KSD4agwr4Cs_wicSnzoaA8WQlLd7VsHp_x66uS5fS9L4apcH_8jMK_-D9hoaBawhGp2_X2EzZhE0Dt8ljij5NxXiTtXUl77Y2rAt6w)
+**See where it says or push existing repositroy from the command line**  
+copy and paste these one at a time   
+it should be something like "git reomote add orgin (your github email)/first=repo.git"  and "git push -u origin master"                        
+11 now you can finially git push 
 ---
 ## Workflow & Commands
 Workflow:git status->git add->git commit->git push 
@@ -94,3 +117,13 @@ git reset HEAD filename :remove the file from stage
 git reset --soft HEAD~1:remove from the commit  
 git reset HEAD~1:move file from commit to stage   
 git reset --hard HEAD~1:remove file from commit to edit   
+
+
+***
+## Extra credit 
+
+Rm -rf:force remove a file 
+(must be outside the file before deleting it,you can't delete a file if you are in it)  -r :continue to delete until everything in the file is gone  
+-f:(with force) even if the file is protected   
+***Be careful***
+
