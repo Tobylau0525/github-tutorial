@@ -50,14 +50,12 @@ Right here ->![alt text](https://lh6.googleusercontent.com/30HBjz1rnXSNb4TxZQ5vB
 28 In the future, here is how you will log in
 go to [c9.io](https://www.c9.io) ->![alt text](https://lh3.googleusercontent.com/p57o7f31-F5fCPYoWzAYwVv48WpdLOZXV8zxbRabuofCBU00nGpNWHsO0LDteIKtV1krpVRMN2CXzNC1QPaQlBlHHsMaGF9rmilvnK_mxIMvq4kwprvHSmBx9pCGliqiefmQuYuJNQ8)
 click on the cat,you should see something that said" **Sign in to GitHub to continue to Cloud9**" 
-<<<<<<< HEAD
+
 
 SSH key:the key to access github(think of a door/gate in front of github,SSH is lik a key to open the door and access github)
 ***
-=======
-![alt text](https://drive.google.com/a/hstat.org/file/d/0B0vpNprpg9i_ZHNzRG1BS0Z2Y0k/view?usp=sharing)  
 SSH key:the key to access github(think of a door/gate in front of github,SSH is like a key to open the door and access github)
->>>>>>> 7d737527f82733669fabf9a242ac3c3ce3758a0f
+
 ## Repository Setup
 **pwd **:print the current working directory  
 **ls** : creates a list  
@@ -66,11 +64,11 @@ SSH key:the key to access github(think of a door/gate in front of github,SSH is 
 **git init**: set up a repository    
 **git add** :places chosen file in the staging area(just like adding people into the picture)  
 git commit**: take a specific ‘snapshot’ of the files on the stage(taking a picture with people in it :)   
-<<<<<<< HEAD
+
 **mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way.  
 
-**rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
-<u>** *NOTE </u>:to delete a folder, you must be in its parent folder
+**rmdir**(thefilename)when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.  
+<u>*NOTE </u>:to delete a folder, you must be in its parent folder
 
 **mkdir**(thefilename):when you want to make a directory you type in `mkdir`,the term mkdir means make directory but in a shorter way.   
 **rmdir**(thefilename): when you want to remove a directory you type in `rmdir`,the term mkdir means remove directory but in a shorter way.
